@@ -54,6 +54,7 @@
         }
         //data to be printed atleast => temp, pressure, humidity, wind speed, sunrise, sunset, weather description
         function displayWeather(data){
+            container.innerHTML = ""
             let weatherCard = document.createElement('div');
             weatherCard.id= 'cityData'
 
